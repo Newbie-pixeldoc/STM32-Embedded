@@ -1,0 +1,2 @@
+The GPIO of every port has 10 registers.
+These 10 registers are connected to every port 0 to 16.
