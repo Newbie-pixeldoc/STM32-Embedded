@@ -2,3 +2,7 @@ Learned about volatile and const type qualifier
 If we use volatile in any variable, it will protect the particular variable from getting unwantedly optimized
 Const is the same, the only difference is it protects the variable from us not by the compiler if we try to change the data inside the const variable it would give an error
 Learned about logic 
+
+
+
+Starting to grasp the roots of Embedded C :)
