@@ -15,7 +15,7 @@ we added this file little code in syscall file
 	//Write to ITM stimulus port0
 	ITM_STIMULUS_PORT0 = ch;
 }//
-i dont know whats inside it yet but somehow it somehow helps us printing on screen using swv
+i dont know whats inside it yet but somehow it helps us printing on screen using swv
 it only works on arm cortex m3/m4/m7
 
 
