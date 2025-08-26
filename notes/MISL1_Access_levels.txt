@@ -1,0 +1,21 @@
+So there are two modes of operations in ARM Cortex-M processors
+1.Thread mode
+2.Handler mode
+
+Every code inside main() and most code runs in Thread mode
+But ISRs(Interrupt service routines) runs in Handler mode
+
+And in these modes there are two types of access levels-
+1.Privilaged
+2.Unprivilaged
+
+Handler Mode always runs on Privilages access level
+But in Thread mode you can chage the access levels from privilaged to unpriv
+Using the control register
+
+
+
+Summary--
+-You can switch between privileged and unprivileged modes in software
+- ISRs always run in Handler Mode (privileged)
+- Inline assembly is used to access special registers
