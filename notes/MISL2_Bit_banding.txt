@@ -1,0 +1,9 @@
+Bit-banding is a feature that allows you to access and modify individual bits in memory or peripheral registers using special alias addresses
+
+We use it because it-
+Makes bit manipulation atomic (no need for read-modify-write)
+Useful for flags, GPIO control, etc.
+
+Certain memory regions (SRAM and peripheral) have alias regions
+We can use those addresses to set or clear a specific bit
+
