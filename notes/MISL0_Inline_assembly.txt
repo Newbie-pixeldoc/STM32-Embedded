@@ -1,5 +1,5 @@
 Inline assembly lets you write assembly instructions directly in C code.
-We use this because it helps us with two things-
+We use this because it helps us with three things-
 1.Optimize performance for critical sections
 2.Access hardware features not available in C
 3.We can directly access the registers which we cannot access with c like control register, general purpose registers etc
