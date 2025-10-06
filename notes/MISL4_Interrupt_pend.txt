@@ -1,0 +1,6 @@
+So in this code we are manually enabling an interrupt handler.
+First we manually enable the USART3 IRQ number in NVICs ISER register.
+Then we manually set the pending bit of USART3 in NVIC
+
+When the code runs and IRQ number gets pended it automatically goes
+into interrupt handler not by hardware.

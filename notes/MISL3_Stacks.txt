@@ -1,0 +1,8 @@
+This code tells us how to switch from MSP(Main stack pointer) to PSP(Process stack pointer).
+Why do we do that?
+Sometimes we need to separate the main stack which os uses from the stack used by user preventing
+user from corrupting the OS stack. 
+In the code we used the attribute naked 
+__attribute__((naked))
+It helps in keeping the compiler from adding any prologue/epilogue code in inline assembly codes.
+Its commonly used in RTOS.
